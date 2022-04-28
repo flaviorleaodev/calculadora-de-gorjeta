@@ -1,0 +1,11 @@
+:root{
+    --primary-color: lightcoral;
+    --secondary-color: DimGrey;
+    --tertiary-color: Gainsboro;
+
+}
+
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+}
