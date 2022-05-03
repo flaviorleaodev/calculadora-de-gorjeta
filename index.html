@@ -12,22 +12,22 @@
     <div class="container">
 
         <div>
-            <h1>Calculadora de Gorjetas</h1>
+            <h1 class="title">Calculadora de Gorjetas</h1>
         </div>
 
         <div>
-            <form action="" method="get">
+            <form class="tipsform">
                 <label for="conta">
                     <p>Quanto ficou a conta?</p>
                 </label>
                 <p>
-                    R$ <input type="number" placeholder="100" name="conta" id="conta">
+                    R$ <input type="number" placeholder="100" name="conta" id="conta" class="formInput">
                 </p>
                 
                 <label for="servico">
                     <p>Como foi seu serviço?</p>
                 </label>
-                <select name="servico" id="servico">
+                <select name="servico" id="servico" class="formSelect">
                     <option disabled selected value="">-- Escolha uma opção</option>
                     <option value="0.3">30% - Incrível</option>
                     <option value="0.2">20% - Bom</option>
@@ -40,10 +40,10 @@
                     <p>Quantas pessoas irão dividir a conta?</p>
                 </label>
                 <p>
-                    <input type="number" placeholder="1" name="pessoas" id="pessoas"> pessoa(s)
+                    <input type="number" placeholder="1" name="pessoas" id="pessoas" class="formInput"> pessoa(s)
                 </p>
 
-                <button type="submit">Calcular</button>
+                <button type="submit" class="formSubmit">Calcular</button>
             </form>
         </div>
 </div>
